@@ -1,0 +1,61 @@
+﻿Instalar nodo en Ubuntu server 18.04
+
+
+sudo apt-get update
+sudo apt-get upgrade
+
+
+·Instalar dependencias
+
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev libboost-all-dev libboost-program-options-dev
+sudo apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler unzip software-properties-common
+
+
+
+·InstalarBerkeley DB.
+
+sudo add-apt-repository ppa:bitcoin/bitcoin
+sudo apt-get update
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+
+
+·Descargar monedero y demonio para Linux
+
+wget “https://github.com/tymecrypt/tyc/blob/master/Wallets/tymecrypt-qt-linux.tar.gz”
+
+wget “https://github.com/tymecrypt/tyc/blob/master/demonios/tymecrypt-daemon-linux.tar.gz”
+
+
+·Extraer los ficheros
+
+tar -xzvf tymecrypt-daemon-linux.tar.gz
+tar -xzvf tymecrypt-qt-linux.tar.gz
+
+
+·Crear el fichero de configuracion 
+
+mkdir $HOME/.tymecrypt
+nano $HOME/.tymecrypt/tymecrypt.conf
+
+
+·Pegar
+
+rpcuser=rpc_tymecrypt
+rpcpassword=password9999199919919919
+rpcallowip=127.0.0.1
+listen=1
+server=1
+txindex=1
+daemon=1
+
+·Guardar
+
+·Arrancar demonio
+
+tymecryptd
+
+·Abrir puerto de tu ip pública al puerto 8010
+
+
+
+
