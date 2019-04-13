@@ -24,13 +24,6 @@ Monedas	47000000 TYC
 
 Monedas preminadas para financiar proyecto tymecrypt	5000000 TYC
 
-Website URL	https://tymecrypt.com
-
-
-
-Propiedades avanzadas
-
-
 Maduración	20 bloques
 
 Target spacing	5 minutos
@@ -40,3 +33,5 @@ Target timespan	10 minutos
 Confirmaciones	6 bloques
 
 Último bloque con recompensa	7140000
+
+Website URL	https://tymecrypt.com
