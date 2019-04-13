@@ -35,4 +35,5 @@ Confirmaciones	6 bloques
 Último bloque con recompensa	7140000 aprox año 2087
 
 Website URL	https://tymecrypt.com
+
 Explorer Blockchain https://explorer.tymecrypt.com
