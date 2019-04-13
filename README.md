@@ -3,6 +3,7 @@
 
 Características de la moneda
 
+
 Algoritmo	Scrypt
 
 Tipo	Proof-of-Work
@@ -26,7 +27,9 @@ Monedas preminadas para financiar proyecto tymecrypt	5000000 TYC
 Website URL	https://tymecrypt.com
 
 
+
 Propiedades avanzadas
+
 
 Maduración	20 bloques
 
